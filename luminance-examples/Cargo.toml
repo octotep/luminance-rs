@@ -67,6 +67,11 @@ path = "src/texture.rs"
 name = "vertex-instancing"
 path = "src/vertex-instancing.rs"
 
+# Fixtures
+[[bin]]
+name = "fixture-360"
+path = "src/fixtures/360-manually-drop-framebuffer.rs"
+
 [dependencies]
 image = "0.23"
 luminance = "0.40"
